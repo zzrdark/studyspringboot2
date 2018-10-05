@@ -4,11 +4,11 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.zzr</groupId>
-    <artifactId>springboot2-mvc</artifactId>
+    <artifactId>springboot2-beetl</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
-    <name>springboot2-mvc</name>
+    <name>springboot2-beetl</name>
     <description>Demo project for Spring Boot</description>
 
     <parent>
@@ -28,6 +28,11 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.ibeetl</groupId>
+            <artifactId>beetl-framework-starter</artifactId>
+            <version>1.1.9.RELEASE</version>
         </dependency>
 
         <dependency>
